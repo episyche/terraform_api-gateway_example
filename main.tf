@@ -29,7 +29,7 @@ resource "aws_api_gateway_integration" "USER_GET_INTEGRATION" {
     http_method = aws_api_gateway_method.USER_GET_METHOD.http_method
     integration_http_method = "GET"
     type = "HTTP"
-    uri = "https://isro.vercel.app/api/centres"
+    uri = " https://isro.vercel.app/api/centres"
     # request_templates = {
     #     "application/json" = ""
     # }
